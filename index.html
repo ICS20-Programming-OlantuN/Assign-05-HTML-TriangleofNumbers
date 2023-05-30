@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Triangle Of Numbers</title>
+  <meta charset="utf-8">
+  <link rel="icon" type="image/png" href="images/celticknot.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Triangle Of Numbers</h1>
+    <img src="/images/dice.png" alt="Dice icon">
+  </header>
+
+  <main>
+    <div class="input-container">
+      <label for="numRows">Enter the height number:</label>
+      <input type="number" id="numRows" min="1" max="10" value="5">
+
+      <!-- Button to generate the triangle -->
+      <button id="generateButton" onclick="generateTriangle()">Generate Triangle</button>
+    </div>
+
+    <div id="triangleContainer" class="triangle"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
