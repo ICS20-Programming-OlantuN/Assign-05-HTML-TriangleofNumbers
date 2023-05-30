@@ -10,7 +10,7 @@
  */
 window.addEventListener('DOMContentLoaded', function() {
   // Get references to the input and container elements
-  var numRowsInput = document.getElementById('numRows');
+  var numRowsInput = document.getElementById('numrows');
   var triangleContainer = document.getElementById('triangleContainer');
 
   // Attach an event listener to the input for dynamic updates
